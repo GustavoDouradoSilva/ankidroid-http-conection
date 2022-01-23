@@ -5,7 +5,7 @@ from the version 2.10 to the newest, ankidroid only allow https connections to p
 
 to allow http connections is just necessary to change the file **AnkiDroid/src/main/res/xml** in the source code to include the ip of the server
 example: 
-<code>
+`
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
     <base-config>
@@ -22,7 +22,7 @@ example:
         <domain includeSubdomains="true">192.168.194.1</domain>
     </domain-config>
 </network-security-config>
-<code>
+`
 
 after this you just need to compile and run the application on your utilizing the ip to the custom server
   
