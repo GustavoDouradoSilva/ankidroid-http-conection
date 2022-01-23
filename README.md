@@ -3,8 +3,10 @@ simple tutorial in how to use http connection in ankidroid to use the anki-sync-
 
 from the version 2.10 to the newest, ankidroid only allow https connections to private server for security reasons. That makes it harder to use this feature, because simple homeservers that are only going to be deployed in local network would need the use of SSL certificates.
 
-to allow http connections is just necessary to change the file **AnkiDroid/src/main/res/xml** in the source code to include the ip of the server
+to allow http connections is just necessary to change the file **AnkiDroid/src/main/res/xml** in the source code to include the ip of the server in my case **<domain includeSubdomains="true">192.168.194.1</domain>** 
 example: 
+
+
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
@@ -22,7 +24,7 @@ example:
         <domain includeSubdomains="true">192.168.194.1</domain>
     </domain-config>
 </network-security-config>
-`
+```
 
 after this you just need to compile and run the application on your utilizing the ip to the custom server
   
