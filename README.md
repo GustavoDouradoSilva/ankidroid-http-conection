@@ -26,5 +26,5 @@ example:
 </network-security-config>
 ```
 
-after this you just need to compile and run the application on your utilizing the ip to the custom server
+after this you just need to compile and run the application on your phone utilizing the ip to the custom server
   
