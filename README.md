@@ -19,7 +19,7 @@ example:
     <domain-config cleartextTrafficPermitted="true">
         <domain includeSubdomains="true">localhost</domain>
         <domain includeSubdomains="true">127.0.0.1</domain>
-        **<domain includeSubdomains="true">192.168.194.1</domain>**
+        <domain includeSubdomains="true">192.168.194.1</domain>
     </domain-config>
 </network-security-config>
 <code>
